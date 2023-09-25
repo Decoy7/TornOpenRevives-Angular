@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <img class="logo" src="../../assets/imgs/psychiatry_FILL0_wght700_GRAD200_opsz48.svg" alt="Logo"/>
+    <span class="logo">Torn Open Revives</span>
+
+  <span class="spacer"></span>
+
+  <button class="sync-button" matTooltip="Get latest revivable" (click)="updateTableData()"
+          [@rotateAnimation]="isRotating ? 'rotating' : 'notRotating'">
+    <img src="../../assets/imgs/sync_FILL0_wght400_GRAD0_opsz48.svg" width="32" height="32" alt="refresh button"/>
+  </button>
+
+  <mat-icon matTooltip="Made by"><a href="https://steamcommunity.com/id/Decoy2k17/" target="_blank">favorite</a>
+  </mat-icon>
+</mat-toolbar>
+
